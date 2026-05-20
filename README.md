@@ -7,8 +7,8 @@ Script de laboratorio para practicar autenticación XML-RPC en WordPress utiliza
 ## Uso
 
 ```bash
-chmod +x brute_xmlrpc.sh
-./brute_xmlrpc.sh
+chmod +x xmlrpc_bruteforce.sh
+./xmlrpc_bruteforce.sh
 ```
 
 ## Requisitos
