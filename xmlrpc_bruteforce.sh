@@ -19,7 +19,7 @@ xmlfile="<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 
 echo "$xmlfile" > file.xml
 
-response=$(curl -s -X POST "http://localhost:31337/xmlrpc.php" \
+response=$(curl -s -X POST "http://localhost/xmlrpc.php" \
 -H "Content-Type: text/xml" \
 -d @file.xml)
 
